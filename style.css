@@ -16,6 +16,8 @@ body{
     background: rgb(255, 87, 87);
     margin: auto;
     border: 2px solid white;
+
+    order: 3;
 }
 .item2{
 
@@ -25,6 +27,8 @@ body{
     background: rgb(101, 91, 255);
     margin: auto;
     border: 2px solid white;
+
+    order: 2;
 }
 .item3{
 
@@ -34,6 +38,8 @@ body{
     background: rgb(134, 255, 78);
     margin: auto;
     border: 2px solid white;
+
+    order: 1;
 }
 .container-header{
 
