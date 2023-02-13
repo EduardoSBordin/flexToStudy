@@ -4,11 +4,24 @@ const item1 = document.querySelector('.item1');
 const item2 = document.querySelector('.item2');
 const item3 = document.querySelector('.item3');
 
-item1.addEventListener('mouseenter', () => {
+const infTest = document.querySelector('#infTest');
+
+function createNewText(){
+
+    let arr = ['Green', 'Purple', 'Red'];
+    const creaateH1 = document.createElement('h1');
+    //creaateH1.innerHTML = arr;
+    infTest.appendChild(creaateH1);
+}
+
+const getArr = createNewText();
+
+item1.addEventListener('click', () => {
 
     getBody.style.background = "rgb(255, 87, 87)";
     getBody.style.transition = "0.4s"
 
+   
 });
 
 item2.addEventListener('mouseenter', () => {
